@@ -1,6 +1,2 @@
 language: node_js
-script: echo "testing.... ;-)"
-
-node_js:
-- node
-- 'lts/*'
+script: echo "testing pr.... ;-)"
