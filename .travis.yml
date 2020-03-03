@@ -1,19 +1,2 @@
-sudo: false
-dist: trusty
-
-cache: bundler
-
-jobs:
-  include:
-    - stage: prepare cache
-      script: true
-      rvm: 2.3
-    - stage: test
-      script: bundle show
-      rvm: 2.3
-    - stage: test
-      script: bundle show
-      rvm: 2.3
-    - stage: test
-      script: bundle show
-      rvm: 2.3
+language: node_js
+cache: npm
